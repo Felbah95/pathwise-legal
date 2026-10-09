@@ -116,3 +116,12 @@ footer.site a { color: #DCE5F7; }
 footer.site nav { display: flex; flex-wrap: wrap; gap: 8px 22px; }
 footer.site .brand { font-size: 20px; margin-bottom: 6px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* plan prices */
+.plan { position: relative; }
+.plan .price { margin: 4px 0 0; font-size: 18px; color: var(--muted); }
+.plan .price strong { font-size: 40px; line-height: 1.1; color: var(--navy); letter-spacing: -.02em; }
+.plan .price2 { margin: 0 0 6px; color: var(--muted); }
+.plan .price2 strong { color: var(--navy); }
+.plan .ribbon { position: absolute; top: -14px; right: 18px; background: var(--gold); color: var(--navy-dark); font-weight: 800; font-size: 13px; padding: 5px 12px; border-radius: 999px; }
+.plans { max-width: none; padding-top: 6px; }
